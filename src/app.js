@@ -78,7 +78,7 @@ app.post('/', async (req, res, next) => {
     await schema.validate(insertUser, {
       abortEarly: false
     });
-    
+
     const record = [[firstName, lastName, email, phoneNumber, company, position, username]];
     const insertStatus = await gs.addNewRecord(record);
     
