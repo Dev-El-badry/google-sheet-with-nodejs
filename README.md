@@ -16,9 +16,9 @@ npm run dev
 ```
 
 ### test project
-#### tools using for test project ( JEST, supertest )
+#### tools using for unit test ( JEST, supertest )
 ```sh
-  npx jest
+ npx jest
 ```
 
 
