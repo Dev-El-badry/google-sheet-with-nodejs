@@ -1,0 +1,75 @@
+<h5>Enter your information as shown below, and when finished, hit submit</h5>
+
+<div id="alerts" class="mt-4">
+  <!-- <div class="alert alert-success">
+    <strong>Success!</strong> Indicates a successful or positive action.
+  </div> -->
+
+  <!-- <div class="alert alert-danger">
+    <strong>Success!</strong> Indicates a successful or positive action.
+  </div> -->
+</div>
+<form class="mt-4" novalidate action="/" method="POST">
+
+  <div class="form-group">
+    <div class="input-group mb-2">
+        <div class="input-group-prepend">
+            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+        </div>
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="first name ex: eslam" >
+    </div>
+
+    <div class="input-group mb-2">
+      <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+      </div>
+      <input type="text" class="form-control" id="lastName" name="lastName" placeholder="last name ex: eslam" >
+    </div>
+
+    <div class="input-group mb-2">
+      <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+      </div>
+      <input type="email" class="form-control" id="email" name="email" placeholder="email ex: example@app.com" >
+    </div>
+
+    <div class="input-group mb-2">
+      <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-phone text-info"></i></div>
+      </div>
+      <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="phone number ex: 01234567898" >
+    </div>
+
+    <div class="input-group mb-2">
+      <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-building text-info"></i></div>
+      </div>
+      <input type="text" class="form-control" id="company" name="company" placeholder="company name ex: DDD" >
+    </div>
+
+    <div class="input-group mb-2">
+      <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-briefcase text-info"></i></div>
+      </div>
+      <input type="text" class="form-control" id="position" name="position" placeholder="position ex: developer" >
+    </div>
+
+    <div class="input-group mb-2">
+      <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+      </div>
+      <input type="text" class="form-control" id="username" name="username" placeholder="username ex: eslam" >
+    </div>
+
+  </div>
+
+  <div class="text-center">
+    <div class="spinner-border mt-2 mb-2" role="status" id="isLoading" style="display: none;">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <button class="btn btn-info btn-block rounded-0 py-2" id="btn-action">
+      Submit
+    </button>
+  </div>
+</form>
